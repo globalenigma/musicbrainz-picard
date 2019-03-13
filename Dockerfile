@@ -3,7 +3,7 @@ FROM desktopcontainers/base-debian
 MAINTAINER globalenigma (https://github.com/globalenigma)
 
 RUN apt-get -q -y update \
- && apt-get -q -y install picard locales-all\
+ && apt-get -q -y install picard locales locales-all\
  && apt-get -q -y clean \
  && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*\
  \
