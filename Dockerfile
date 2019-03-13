@@ -1,4 +1,4 @@
-FROM globalenigma/base-debian
+FROM desktopcontainers/base-debian
 
 MAINTAINER globalenigma (https://github.com/globalenigma)
 
