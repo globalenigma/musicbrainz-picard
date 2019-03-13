@@ -1,6 +1,6 @@
-FROM desktopcontainers/base-debian
+FROM globalenigma/base-debian
 
-MAINTAINER MarvAmBass (https://github.com/DesktopContainers)
+MAINTAINER globalenigma (https://github.com/globalenigma)
 
 RUN apt-get -q -y update \
  && apt-get -q -y install picard \
